@@ -34,7 +34,8 @@ is not aware about variable this may be null or may not be null, it is surprise
 */
 
 //BigInt --> use for long or large number
-
+let y = 123e5;    // 12300000
+let z = 123e-5;
 //Boolean --->> use for true or false
 
 //Symbol  -->> unique 
