@@ -39,3 +39,34 @@ console.log(typeof BigInt);  // return type bigint
 console.log(typeof myFunction); // return type function
 console.log(typeof heros); // return type objet 
 console.log(typeof  score); // return type number
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//Mamory - Concept
+
+//Stack (Primitive), Heap(Non - Primitive)
+
+let mySchool = "govt";                                                          // In stack mamory take the copy of value eg. ==>
+                                                                                    
+let myNewSchool = mySchool;
+
+mySchool = "private";
+
+console.log(myNewSchool);
+console.log(mySchool);
+
+
+let Information = {
+    email : "prakash@gmail.com",
+    upi : "prakash@payment"
+}
+
+let updateInformation = Information;
+
+updateInformation.email = "pk@pytem";
+
+console.log(updateInformation.email);
+console.log( Information.email);
+
